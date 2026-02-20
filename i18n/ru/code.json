@@ -1,0 +1,285 @@
+{
+  "notice.text": {
+    "message": "Демо-режим — запросы к ИИ не выполняются. Все результаты заранее подготовлены и носят иллюстративный характер.",
+    "description": "LanguageNotice demo disclaimer"
+  },
+
+  "trust.title": {
+    "message": "BetaReader — ИИ-проверка рукописей",
+    "description": "Hero title on homepage"
+  },
+  "trust.bullet.no-publish": {
+    "message": "Ваш текст не публикуется и не сохраняется",
+    "description": "Trust bullet 1"
+  },
+  "trust.bullet.beta-reader": {
+    "message": "Работает как живой бета-ридер",
+    "description": "Trust bullet 2"
+  },
+  "trust.bullet.checks": {
+    "message": "Проверяет логику, повторы и темп",
+    "description": "Trust bullet 3"
+  },
+  "trust.bullet.drafts": {
+    "message": "Подходит для черновиков — без необходимости полировать текст",
+    "description": "Trust bullet 4"
+  },
+  "trust.bullet.free": {
+    "message": "Бесплатное демо, регистрация не нужна",
+    "description": "Trust bullet 5"
+  },
+  "trust.disclaimer": {
+    "message": "Это демо. Результаты примерные и носят иллюстративный характер.",
+    "description": "Trust section disclaimer"
+  },
+
+  "editor.title": {
+    "message": "Текст",
+    "description": "Editor panel title"
+  },
+  "editor.textarea.placeholder": {
+    "message": "Вставьте вашу рукопись сюда (минимум 200 символов)…",
+    "description": "Textarea placeholder"
+  },
+  "editor.chars.label": {
+    "message": "символов",
+    "description": "Characters label after count"
+  },
+  "editor.btn.check": {
+    "message": "Проверить",
+    "description": "Validate button"
+  },
+  "editor.btn.clear": {
+    "message": "Очистить",
+    "description": "Clear button"
+  },
+  "editor.btn.sample": {
+    "message": "Вставить пример",
+    "description": "Load sample button"
+  },
+
+  "results.title": {
+    "message": "Результат проверки",
+    "description": "Results panel title"
+  },
+  "results.status.no-text": {
+    "message": "Нет текста",
+    "description": "Status: no text entered"
+  },
+  "results.status.too-short": {
+    "message": "Слишком коротко",
+    "description": "Status: text too short"
+  },
+  "results.status.ready": {
+    "message": "Готово",
+    "description": "Status: check complete"
+  },
+  "results.empty.waiting": {
+    "message": "Нажмите «Проверить», чтобы увидеть результаты",
+    "description": "Results empty state: waiting for check"
+  },
+  "results.empty.notext": {
+    "message": "Нет текста для проверки",
+    "description": "Results empty state: no text"
+  },
+  "results.empty.tooshort": {
+    "message": "Введите не менее 200 символов для проверки",
+    "description": "Results empty state: too short"
+  },
+  "results.count": {
+    "message": "{count} замечание(й) найдено",
+    "description": "Issue count line"
+  },
+
+  "homepage.meta.title": {
+    "message": "BetaReader — ИИ-проверка рукописей",
+    "description": "Homepage meta title"
+  },
+  "homepage.meta.description": {
+    "message": "Бесплатная ИИ-проверка рукописей. Вставьте текст и получите мгновенную обратную связь по логике, повторам и темпу.",
+    "description": "Homepage meta description"
+  },
+
+  "pricing.meta.title": {
+    "message": "Цены — BetaReader",
+    "description": "Pricing page meta title"
+  },
+  "pricing.meta.description": {
+    "message": "Простые и прозрачные цены на BetaReader.",
+    "description": "Pricing page meta description"
+  },
+  "pricing.title": {
+    "message": "Цены",
+    "description": "Pricing page heading"
+  },
+  "pricing.subtitle": {
+    "message": "Простые и прозрачные цены.",
+    "description": "Pricing page subtitle"
+  },
+  "pricing.free.title": {
+    "message": "Бесплатно",
+    "description": "Free plan title"
+  },
+  "pricing.free.price": {
+    "message": "$0 / месяц",
+    "description": "Free plan price"
+  },
+  "pricing.free.desc": {
+    "message": "Отлично подходит для знакомства с BetaReader",
+    "description": "Free plan description"
+  },
+  "pricing.free.feature1": {
+    "message": "До 5 проверок в день",
+    "description": "Free plan feature 1"
+  },
+  "pricing.free.feature2": {
+    "message": "Базовый анализ (повторы, логика, темп)",
+    "description": "Free plan feature 2"
+  },
+  "pricing.free.feature3": {
+    "message": "Без регистрации",
+    "description": "Free plan feature 3"
+  },
+  "pricing.free.cta": {
+    "message": "Попробовать демо",
+    "description": "Free plan CTA"
+  },
+  "pricing.pro.title": {
+    "message": "Pro",
+    "description": "Pro plan title"
+  },
+  "pricing.pro.price": {
+    "message": "Скоро",
+    "description": "Pro plan price"
+  },
+  "pricing.pro.desc": {
+    "message": "Для серьёзных авторов",
+    "description": "Pro plan description"
+  },
+  "pricing.pro.feature1": {
+    "message": "Неограниченное количество проверок",
+    "description": "Pro plan feature 1"
+  },
+  "pricing.pro.feature2": {
+    "message": "Глубокий ИИ-анализ с пояснениями",
+    "description": "Pro plan feature 2"
+  },
+  "pricing.pro.feature3": {
+    "message": "Экспорт результатов в PDF или Markdown",
+    "description": "Pro plan feature 3"
+  },
+  "pricing.pro.feature4": {
+    "message": "Приоритетная поддержка",
+    "description": "Pro plan feature 4"
+  },
+  "pricing.pro.cta": {
+    "message": "Уведомить меня",
+    "description": "Pro plan CTA"
+  },
+
+  "privacy.meta.title": {
+    "message": "Политика конфиденциальности — BetaReader",
+    "description": "Privacy page meta title"
+  },
+  "privacy.meta.description": {
+    "message": "Политика конфиденциальности BetaReader.",
+    "description": "Privacy page meta description"
+  },
+  "privacy.title": {
+    "message": "Политика конфиденциальности",
+    "description": "Privacy page heading"
+  },
+  "privacy.updated": {
+    "message": "Последнее обновление: январь 2025",
+    "description": "Privacy page last updated"
+  },
+  "privacy.s1.title": {
+    "message": "1. Данные, которые мы собираем",
+    "description": "Privacy section 1 title"
+  },
+  "privacy.s1.body": {
+    "message": "В демо-режиме BetaReader не собирает, не хранит и не передаёт введённый вами текст. Вся обработка происходит локально в браузере. Мы не используем куки, кроме необходимых для работы сайта.",
+    "description": "Privacy section 1 body"
+  },
+  "privacy.s2.title": {
+    "message": "2. Аналитика",
+    "description": "Privacy section 2 title"
+  },
+  "privacy.s2.body": {
+    "message": "Мы можем собирать анонимную статистику использования (просмотры страниц, тип браузера) для улучшения продукта. Персональные данные не собираются.",
+    "description": "Privacy section 2 body"
+  },
+  "privacy.s3.title": {
+    "message": "3. Третьи лица",
+    "description": "Privacy section 3 title"
+  },
+  "privacy.s3.body": {
+    "message": "Мы не продаём и не передаём ваши данные третьим лицам. Демо-версия не выполняет внешних API-запросов.",
+    "description": "Privacy section 3 body"
+  },
+  "privacy.s4.title": {
+    "message": "4. Контакты",
+    "description": "Privacy section 4 title"
+  },
+  "privacy.s4.body": {
+    "message": "Вопросы по этой политике? Напишите нам на contact@betareader.app.",
+    "description": "Privacy section 4 body"
+  },
+
+  "terms.meta.title": {
+    "message": "Условия использования — BetaReader",
+    "description": "Terms page meta title"
+  },
+  "terms.meta.description": {
+    "message": "Условия использования BetaReader.",
+    "description": "Terms page meta description"
+  },
+  "terms.title": {
+    "message": "Условия использования",
+    "description": "Terms page heading"
+  },
+  "terms.updated": {
+    "message": "Последнее обновление: январь 2025",
+    "description": "Terms page last updated"
+  },
+  "terms.s1.title": {
+    "message": "1. Принятие условий",
+    "description": "Terms section 1 title"
+  },
+  "terms.s1.body": {
+    "message": "Используя BetaReader, вы соглашаетесь с настоящими условиями. Если вы не согласны, пожалуйста, не пользуйтесь сервисом.",
+    "description": "Terms section 1 body"
+  },
+  "terms.s2.title": {
+    "message": "2. Использование сервиса",
+    "description": "Terms section 2 title"
+  },
+  "terms.s2.body": {
+    "message": "BetaReader предоставляется «как есть» в информационных и творческих целях. Демо-версия выдаёт заранее подготовленную иллюстративную обратную связь — она не заменяет профессиональное редактирование.",
+    "description": "Terms section 2 body"
+  },
+  "terms.s3.title": {
+    "message": "3. Интеллектуальная собственность",
+    "description": "Terms section 3 title"
+  },
+  "terms.s3.body": {
+    "message": "Вы сохраняете все права на текст, который вводите в BetaReader. Мы не претендуем на ваш контент.",
+    "description": "Terms section 3 body"
+  },
+  "terms.s4.title": {
+    "message": "4. Отказ от ответственности",
+    "description": "Terms section 4 title"
+  },
+  "terms.s4.body": {
+    "message": "Сервис предоставляется «как есть», без каких-либо гарантий. Мы не несём ответственности за убытки, возникшие в результате использования BetaReader.",
+    "description": "Terms section 4 body"
+  },
+  "terms.s5.title": {
+    "message": "5. Контакты",
+    "description": "Terms section 5 title"
+  },
+  "terms.s5.body": {
+    "message": "Вопросы? Напишите нам на contact@betareader.app.",
+    "description": "Terms section 5 body"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "item.label.Pricing": {
+    "message": "Цены",
+    "description": "Navbar item with label Pricing"
+  },
+  "item.label.Privacy": {
+    "message": "Конфиденциальность",
+    "description": "Navbar item with label Privacy"
+  },
+  "item.label.Terms": {
+    "message": "Условия",
+    "description": "Navbar item with label Terms"
+  },
+  "logo.alt": {
+    "message": "Логотип BetaReader",
+    "description": "Navbar logo alt text"
+  }
+}

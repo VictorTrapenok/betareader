@@ -1,0 +1,23 @@
+.editorSection {
+  padding: 2.5rem 1.25rem 4rem;
+  max-width: var(--br-max-width, 1200px);
+  margin: 0 auto;
+}
+
+.editorLayout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.75rem;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .editorSection {
+    padding: 1.5rem 1rem 3rem;
+  }
+
+  .editorLayout {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}

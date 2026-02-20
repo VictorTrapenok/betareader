@@ -1,0 +1,91 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.panelTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ifm-color-secondary-darkest);
+  margin: 0;
+}
+
+.textarea {
+  width: 100%;
+  height: calc(90vh - 200px);
+  min-height: 300px;
+  resize: vertical;
+  font-family: var(--ifm-font-family-base);
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  padding: 0.875rem 1rem;
+  border: 1.5px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  box-sizing: border-box;
+}
+
+.textarea:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px rgba(79, 106, 245, 0.15);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.charCount {
+  font-size: 0.8rem;
+  color: var(--ifm-color-secondary-darkest);
+}
+
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.btnPrimary,
+.btnSecondary {
+  padding: 0.45rem 1rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: background 0.15s ease, opacity 0.15s ease;
+  white-space: nowrap;
+}
+
+.btnPrimary {
+  background: var(--ifm-color-primary);
+  color: #fff;
+}
+
+.btnPrimary:hover {
+  background: var(--ifm-color-primary-dark);
+}
+
+.btnSecondary {
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-font-color-base);
+}
+
+.btnSecondary:hover:not(:disabled) {
+  background: var(--ifm-color-emphasis-300);
+}
+
+.btnSecondary:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}

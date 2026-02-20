@@ -1,0 +1,26 @@
+{
+  "link.title.Legal": {
+    "message": "Правовая информация",
+    "description": "Footer Legal section title"
+  },
+  "link.title.Company": {
+    "message": "Компания",
+    "description": "Footer Company section title"
+  },
+  "item.label.Privacy Policy": {
+    "message": "Политика конфиденциальности",
+    "description": "Footer link: Privacy Policy"
+  },
+  "item.label.Terms of Service": {
+    "message": "Условия использования",
+    "description": "Footer link: Terms of Service"
+  },
+  "item.label.Pricing": {
+    "message": "Цены",
+    "description": "Footer link: Pricing"
+  },
+  "item.label.contact@betareader.app": {
+    "message": "contact@betareader.app",
+    "description": "Footer contact email"
+  }
+}

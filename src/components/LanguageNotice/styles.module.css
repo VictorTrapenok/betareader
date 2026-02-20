@@ -1,0 +1,10 @@
+.notice {
+  font-size: 0.8rem;
+  color: var(--ifm-color-secondary-darkest);
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 6px;
+  padding: 0.5rem 0.875rem;
+  margin: 0;
+  text-align: center;
+}

@@ -1,0 +1,107 @@
+.plans {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 640px) {
+  .plans {
+    grid-template-columns: 1fr;
+  }
+}
+
+.plan {
+  border: 1.5px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  padding: 1.75rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  background: var(--ifm-background-surface-color);
+}
+
+.planFeatured {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 1px var(--ifm-color-primary);
+}
+
+.planHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.planName {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 0;
+  color: var(--ifm-font-color-base);
+}
+
+.planFeatured .planName {
+  color: var(--ifm-color-primary);
+}
+
+.planPrice {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0.25rem 0 0;
+  color: var(--ifm-font-color-base);
+}
+
+.planDesc {
+  font-size: 0.875rem;
+  color: var(--ifm-color-secondary-darkest);
+  margin: 0.25rem 0 0;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.featureList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.check {
+  color: var(--ifm-color-primary);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.ctaBtn {
+  display: block;
+  text-align: center;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: var(--ifm-color-primary);
+  color: #fff !important;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  width: 100%;
+}
+
+.ctaBtn:hover:not(:disabled) {
+  background: var(--ifm-color-primary-dark);
+  text-decoration: none;
+}
+
+.ctaBtnDisabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
