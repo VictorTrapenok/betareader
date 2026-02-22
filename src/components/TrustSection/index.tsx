@@ -1,42 +1,47 @@
 import React from 'react';
 import Translate from '@docusaurus/Translate';
-import LanguageNotice from '@site/src/components/LanguageNotice';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
-
-const bullets = [
-  { id: 'trust.bullet.no-publish', en: 'Your text is never published or stored' },
-  { id: 'trust.bullet.beta-reader', en: 'Works like a human beta reader' },
-  { id: 'trust.bullet.checks', en: 'Checks logic, repetitions, and pace' },
-  { id: 'trust.bullet.drafts', en: 'Works with rough drafts — no polish required' },
-  { id: 'trust.bullet.free', en: 'Free demo, no sign-up required' },
-];
 
 export default function TrustSection(): JSX.Element {
   return (
     <section className={styles.section}>
       <div className={styles.inner}>
+        <p className={styles.eyebrow}>
+          <Translate id="hero.eyebrow">AI manuscript analysis · demo</Translate>
+        </p>
+
         <h1 className={styles.title}>
-          <Translate id="trust.title">BetaReader — AI manuscript check</Translate>
+          <Translate id="hero.title">
+            Find problems in your manuscript — without rewriting your style
+          </Translate>
         </h1>
 
-        <ul className={styles.bullets}>
-          {bullets.map((b) => (
-            <li key={b.id} className={styles.bullet}>
-              <span className={styles.checkmark} aria-hidden="true">✓</span>
-              <Translate id={b.id}>{b.en}</Translate>
-            </li>
-          ))}
-        </ul>
-
-        <p className={styles.disclaimer}>
-          <Translate id="trust.disclaimer">
-            This is a demo. Results are approximate and for illustration only.
+        <p className={styles.subtitle}>
+          <Translate id="hero.subtitle">
+            The tool highlights potential weak spots: logic, repetitions, inconsistencies.
+            The decisions are always yours.
           </Translate>
         </p>
 
-        <div className={styles.notice}>
-          <LanguageNotice />
-        </div>
+        <p className={styles.disclaimer}>
+          <Translate id="hero.disclaimer">We don't automatically change your text.</Translate>
+        </p>
+
+        <nav className={styles.links} aria-label="Learn more">
+          <Link to="/how-it-works" className={styles.link}>
+            <Translate id="hero.link.hiw">How it works</Translate>
+            {' →'}
+          </Link>
+          <Link to="/what-we-check" className={styles.link}>
+            <Translate id="hero.link.wwc">What we check</Translate>
+            {' →'}
+          </Link>
+          <Link to="/trust" className={styles.link}>
+            <Translate id="hero.link.trust">Trust &amp; Privacy</Translate>
+            {' →'}
+          </Link>
+        </nav>
       </div>
     </section>
   );

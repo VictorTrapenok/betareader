@@ -6,6 +6,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import TrustSection from '@site/src/components/TrustSection';
 import EditorPanel from '@site/src/components/EditorPanel';
 import ResultsPanel, { StatusType } from '@site/src/components/ResultsPanel';
+import WhatWeFind from '@site/src/components/WhatWeFind';
+import WhyItsSafe from '@site/src/components/WhyItsSafe';
 import { getMockIssues, Issue } from '@site/src/utils/mockIssues';
 import { getSampleText } from '@site/src/utils/sampleText';
 import styles from './index.module.css';
@@ -70,7 +72,7 @@ export default function Home(): JSX.Element {
 
       <TrustSection />
 
-      <section className={styles.editorSection}>
+      <section id="editor" className={styles.editorSection}>
         <div className={styles.editorLayout}>
           <EditorPanel
             text={text}
@@ -82,6 +84,9 @@ export default function Home(): JSX.Element {
           <ResultsPanel issues={issues} status={status} hasChecked={hasChecked} />
         </div>
       </section>
+
+      <WhatWeFind />
+      <WhyItsSafe />
     </Layout>
   );
 }

@@ -58,54 +58,39 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          to: '/pricing',
-          label: 'Pricing',
-          position: 'left',
-        },
-        {
-          to: '/privacy',
-          label: 'Privacy',
-          position: 'right',
-        },
-        {
-          to: '/terms',
-          label: 'Terms',
-          position: 'right',
-        },
-        {
-          type: 'localeDropdown',
-          position: 'right',
-        },
+        { to: '/how-it-works', label: 'How it works', position: 'left' },
+        { to: '/what-we-check', label: 'What we check', position: 'left' },
+        { to: '/trust', label: 'Trust & Privacy', position: 'left' },
+        { to: '/about', label: 'About', position: 'right' },
+        { href: 'https://auth.betareader.app/', label: 'Log in', position: 'right' },
+        { href: 'https://auth.betareader.app/register', label: 'Sign up', position: 'right' },
+        { type: 'localeDropdown', position: 'right' },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Legal',
+          title: 'Learn',
           items: [
-            {
-              label: 'Privacy Policy',
-              to: '/privacy',
-            },
-            {
-              label: 'Terms of Service',
-              to: '/terms',
-            },
+            { label: 'How it works', to: '/how-it-works' },
+            { label: 'What we check', to: '/what-we-check' },
+            { label: 'Trust & Privacy', to: '/trust' },
           ],
         },
         {
-          title: 'Company',
+          title: 'Legal',
           items: [
-            {
-              label: 'Pricing',
-              to: '/pricing',
-            },
-            {
-              label: 'contact@betareader.app',
-              href: 'mailto:contact@betareader.app',
-            },
+            { label: 'Privacy Policy', to: '/privacy' },
+            { label: 'Terms of Service', to: '/terms' },
+            { label: 'Pricing', to: '/pricing' },
+          ],
+        },
+        {
+          title: 'About',
+          items: [
+            { label: 'About the project', to: '/about' },
+            { label: 'contact@betareader.app', href: 'mailto:contact@betareader.app' },
           ],
         },
       ],

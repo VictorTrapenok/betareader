@@ -1,15 +1,27 @@
 {
-  "item.label.Pricing": {
-    "message": "Цены",
-    "description": "Navbar item with label Pricing"
+  "item.label.How it works": {
+    "message": "Как работает",
+    "description": "Navbar item: How it works"
   },
-  "item.label.Privacy": {
-    "message": "Конфиденциальность",
-    "description": "Navbar item with label Privacy"
+  "item.label.What we check": {
+    "message": "Что проверяем",
+    "description": "Navbar item: What we check"
   },
-  "item.label.Terms": {
-    "message": "Условия",
-    "description": "Navbar item with label Terms"
+  "item.label.Trust & Privacy": {
+    "message": "Доверие и приватность",
+    "description": "Navbar item: Trust & Privacy"
+  },
+  "item.label.About": {
+    "message": "О проекте",
+    "description": "Navbar item: About"
+  },
+  "item.label.Log in": {
+    "message": "Войти",
+    "description": "Navbar item: Log in"
+  },
+  "item.label.Sign up": {
+    "message": "Регистрация",
+    "description": "Navbar item: Sign up"
   },
   "logo.alt": {
     "message": "Логотип BetaReader",

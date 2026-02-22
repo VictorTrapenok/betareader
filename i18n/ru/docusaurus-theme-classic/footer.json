@@ -1,11 +1,27 @@
 {
+  "link.title.Learn": {
+    "message": "Материалы",
+    "description": "Footer Learn section title"
+  },
   "link.title.Legal": {
     "message": "Правовая информация",
     "description": "Footer Legal section title"
   },
-  "link.title.Company": {
-    "message": "Компания",
-    "description": "Footer Company section title"
+  "link.title.About": {
+    "message": "О проекте",
+    "description": "Footer About section title"
+  },
+  "item.label.How it works": {
+    "message": "Как работает",
+    "description": "Footer link: How it works"
+  },
+  "item.label.What we check": {
+    "message": "Что проверяем",
+    "description": "Footer link: What we check"
+  },
+  "item.label.Trust & Privacy": {
+    "message": "Доверие и приватность",
+    "description": "Footer link: Trust & Privacy"
   },
   "item.label.Privacy Policy": {
     "message": "Политика конфиденциальности",
@@ -18,6 +34,10 @@
   "item.label.Pricing": {
     "message": "Цены",
     "description": "Footer link: Pricing"
+  },
+  "item.label.About the project": {
+    "message": "О проекте",
+    "description": "Footer link: About"
   },
   "item.label.contact@betareader.app": {
     "message": "contact@betareader.app",

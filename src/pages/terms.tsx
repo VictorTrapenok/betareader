@@ -30,13 +30,13 @@ export default function Terms(): JSX.Element {
         </p>
 
         <h2>
-          <Translate id="terms.s2.title">2. Use of the Service</Translate>
+          <Translate id="terms.s2.title">2. Nature of the Service</Translate>
         </h2>
         <p>
           <Translate id="terms.s2.body">
-            BetaReader is provided as-is for informational and creative purposes. The demo version
-            produces pre-generated illustrative feedback — it is not a substitute for professional
-            editorial services.
+            BetaReader is provided as an analysis tool for informational and creative purposes.
+            The demo version produces pre-generated, illustrative feedback — it is not a
+            substitute for professional editorial services. Findings are suggestions only.
           </Translate>
         </p>
 
@@ -45,28 +45,39 @@ export default function Terms(): JSX.Element {
         </h2>
         <p>
           <Translate id="terms.s3.body">
-            You retain all rights to text you enter into BetaReader. We claim no ownership over
-            your content.
+            You retain all rights to text you enter into BetaReader. We claim no ownership,
+            licence, or interest in your content. See our Privacy Policy for how text is handled.
           </Translate>
         </p>
 
         <h2>
-          <Translate id="terms.s4.title">4. Disclaimer</Translate>
+          <Translate id="terms.s4.title">4. Disclaimer of Warranties</Translate>
         </h2>
         <p>
           <Translate id="terms.s4.body">
-            The service is provided "as is" without warranty of any kind. We are not liable for
-            any damages arising from your use of BetaReader.
+            The service is provided "as is" and "as available" without warranty of any kind,
+            express or implied. We do not warrant that results are accurate, complete, or suitable
+            for any particular purpose.
           </Translate>
         </p>
 
         <h2>
-          <Translate id="terms.s5.title">5. Contact</Translate>
+          <Translate id="terms.s5.title">5. Limitation of Liability</Translate>
         </h2>
         <p>
           <Translate id="terms.s5.body">
-            Questions? Contact us at contact@betareader.app.
+            To the fullest extent permitted by law, BetaReader is not liable for any indirect,
+            incidental, or consequential damages arising from your use of the service.
           </Translate>
+        </p>
+
+        <h2>
+          <Translate id="terms.s6.title">6. Contact</Translate>
+        </h2>
+        <p>
+          <Translate id="terms.s6.body">Questions?</Translate>
+          {' '}
+          <a href="mailto:contact@betareader.app">contact@betareader.app</a>
         </p>
       </div>
     </Layout>
